@@ -2,3 +2,16 @@
     padding-left: 1rem;
     text-align: left;
 }
+
+/* xs (less than 575px) */
+@media only screen and (max-width: 575.99px) {
+
+    .imageBanner h1.pageTitle {
+        padding-left: 0.25rem;
+    }
+}
+
+
+.spotlightArrow {
+    display: none;
+}
